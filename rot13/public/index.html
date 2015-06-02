@@ -7,25 +7,33 @@
     <script src="libs/jquery.js"></script>
 
     <link href="index.css" rel="stylesheet" />
+    <link href='http://fonts.googleapis.com/css?family=Amatic+SC:400,700' rel='stylesheet' type='text/css'>
   </head>
   <body>
-
-    <section class="input">
-      <div class="instructions">
-        Input:
+    <div class="container">
+      <div id="header">
+        Caesar Cipher
+        <p>One of the earliest effective uses of cryptography was the Caesar cipher, wherein the writer of a message rotated each of the characters forward by a certain number of positions, and the reader rotated them back to decrypt the original meaning. Try it out yourself below!</p>
       </div>
+      <section class="input">
+        <div class="instructions">
+          Input: <br>
+          Put your text to translate here!
+        </div>
 
-      <textarea class="monospace" id="inputText"></textarea>
+        <textarea class="monospace" id="inputText"></textarea>
 
-      <button class="translate" id="inputTranslate">Translate</button>
-    </section>
-    
-    <section class="output">
-      <div class="instructions">
-        Output:
+        <div class="translate" id="inputTranslate">Translate</div>
+      </section>
+      
+      <section class="output">
+        <div class="instructions">
+          Output: <br>
+          Your text translated to this!
+        </div>
+        <div class="monospace" id="displayText"></div>
+      </section>
       </div>
-      <div class="monospace" id="displayText"></div>
-    </section>
 
     <script src="index.js"></script>
   </body>
