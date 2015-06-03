@@ -1,19 +1,50 @@
+body {
+	background-image: url("http://static6.depositphotos.com/1024166/554/v/950/depositphotos_5540906-Seamless-Background.jpg");
+}
 textarea {
   width: 300px;
   height: 150px;
 }
-
+.container {
+	width: 70%;
+	margin: 30px auto;
+	text-align: center;
+	position: relative;
+	font-family: 'Amatic SC', cursive;
+	font-size: 25px;
+	background-color: #999;
+	height: 90vh;
+}
+#header {
+	background-color: #445564;
+	color: #fff;
+	text-align: center;
+	font-size: 60px;
+	padding: 10px 20px;
+}
+p {
+	font-size: 36px;
+}
 .monospace {
   font-family: monospace;
   font-size: 18px;
+  margin-top: 15px;
 }
 
-section.input {
-  margin-bottom: 20px;
+section {
+  margin: 30px 15px;
+  width: 44%;
+  display: inline-block;
+  text-align: center;
+  vertical-align: top;
 }
 
 .translate {
   display: block;
-  
+  margin: 10px auto;
+  padding: 5px;
+  border-radius: 5px;
 }
-
+#inputText, #displayText, {
+	margin-top: 15px;
+}
