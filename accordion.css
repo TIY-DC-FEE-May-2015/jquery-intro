@@ -1,0 +1,71 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: box-border;
+	font-family: Helvetica;
+}
+
+.container {
+	width: 80%;
+	margin: 0px auto;
+	padding-top: 10px;
+}
+.tab {
+	background: #00C6D6;
+	border: 1px solid #00C6D6;
+	color: white;
+	padding: 20px;
+	font-size: 18px;
+	padding-left: 20px;
+	font-weight: 200px;
+	
+}
+
+
+
+.tab-content {
+	border: 1px solid #00C6D6;
+	color: gray;
+	padding: 30px;
+	display: none;
+	
+	
+}
+
+
+
+.tab-content1{
+	border: 1px solid #00C6D6;
+	color: gray;
+	padding: 30px;
+	display: none;
+}
+
+.tab-content2{
+	border: 1px solid #00C6D6;
+	color: gray;
+	padding: 30px;
+	display: none;
+}
+
+
+/* I know that the display:none; is messing with my ability 
+to  perform transitions. However I'm unsure of how to include 
+it into the code. I'm leaning towards creating an if...then 
+statement, and I'll be working on it.
+
+.height-transition {
+        -webkit-transition: max-height 0.5s slidein;
+        -moz-transition: max-height 0.5s slidein;
+        -o-transition: max-height 0.5s slidein;
+        transition: max-height 0.5s slidein;
+        overflow-y: hidden;            
+    }
+
+
+    .height-transition-hidden {            
+        max-height: 0;            
+    }
+
+
+*/
