@@ -1,0 +1,48 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Helvetica;
+}
+
+.page-container {
+  margin: 20px;
+  width:75%;
+}
+
+.tab-container {
+  font-size: 0;
+  display: inline-block;
+  padding-left:30%;
+}
+
+.tab {
+  border: solid 2px #00B4C3;
+  font-size: 25px;
+  overflow:hidden;
+}
+
+.header {
+  background-color:#00C6D6;
+  color:white;
+  padding: 15px;
+  display: block;
+}
+
+.tab.active {
+  display:block;
+  background-color:#00C6D6;
+}
+
+.content {
+  transition: all 1s;
+  color:#A38874;
+  height: 0;
+  font-size:15px;  
+}
+
+.tab.active .content {
+  background-color: #FEFEFE;
+  height: auto;
+}
+
