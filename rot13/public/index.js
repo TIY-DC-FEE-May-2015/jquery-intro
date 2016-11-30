@@ -33,3 +33,14 @@ var translateCharacter = function(character) {
   return character;
 }
 
+
+    $(".translate").on("click", function(){
+        var input = $("#inputText").val()
+          console.log(input)
+           $("#displayText").append(input)
+           $("#inputText").val("");
+      })
+
+
+
+
